@@ -20,7 +20,7 @@ sudo apt update && sudo apt upgrade -y \
 
 {% code title="Change dir to catuserbot & make config.py to save config values" overflow="wrap" %}
 ```batch
-git clone -b beta https://github.com/TgCatUB/catuserbot && cd catuserbot && mv exampleconfig.py config.py
+git clone https://github.com/TgCatUB/catuserbot && cd catuserbot && mv exampleconfig.py config.py
 ```
 {% endcode %}
 
@@ -35,9 +35,15 @@ git clone -b beta https://github.com/TgCatUB/catuserbot && cd catuserbot && mv e
 
 ### 〣 _**Create a Virtual**_ environment _**& install requirements**_ <a href="#create-venv" id="create-venv"></a>
 
-{% code title="Using Screen to create Venv" overflow="wrap" %}
+{% code title="Create catuserbot screen session" overflow="wrap" %}
 ```batch
-screen -S catuserbot && virtualenv venv && source venv/bin/activate && pip3 install -r requirements.txt
+screen -S catuserbot
+```
+{% endcode %}
+
+{% code title="Install venv & requirements" overflow="wrap" %}
+```batch
+pip install virtualenv && virtualenv venv && source venv/bin/activate && pip3 install -r requirements.txt
 ```
 {% endcode %}
 

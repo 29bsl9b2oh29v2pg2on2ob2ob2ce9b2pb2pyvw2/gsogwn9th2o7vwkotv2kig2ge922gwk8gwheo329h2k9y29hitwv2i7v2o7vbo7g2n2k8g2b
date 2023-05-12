@@ -1,6 +1,6 @@
 # Table of contents
 
-* [📙 Introduction](README.md)
+* [Introduction](README.md)
 
 ## Installation
 
@@ -8,6 +8,7 @@
   * [📕 Docker Compose](installation/hosting/docker-compose.md)
   * [📕 Self Host](installation/hosting/self-host.md)
   * [📕 Heroku](installation/hosting/heroku.md)
+  * [📕 Railway](installation/hosting/railway.md)
 * [📚 Variables](installation/variables/README.md)
   * [📕 Config Vars](installation/variables/config-vars.md)
   * [📕 Database Vars](installation/variables/database-vars.md)
@@ -33,6 +34,7 @@
 
 * [GitHub](https://github.com/TgCatUB)
 * [📑 Changelogs](project-info/changelogs/README.md)
+  * [📄 Version 3.3.0](project-info/changelogs/version-3.3.0.md)
   * [📄 Version 3.2.0](project-info/changelogs/version-3.2.0.md)
   * [📄 Version 3.1.0](project-info/changelogs/version-3.1.0.md)
   * [📄 Version 3.0.0](project-info/changelogs/version-3.0.0.md)
